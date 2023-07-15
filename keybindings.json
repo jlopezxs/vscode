@@ -1,0 +1,109 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "command": "projectManager.listGitProjects#sideBarGit",
+    "key": "ctrl+o"
+  },
+  {
+    "command": "workbench.action.closeActiveEditor",
+    "key": "ctrl+w"
+  },
+  {
+    "command": "workbench.action.toggleSidebarVisibility",
+    "key": "ctrl+e"
+  },
+  {
+    "command": "expand_region",
+    "key": "ctrl+up",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "undo_expand_region",
+    "key": "ctrl+down",
+    "when": "editorTextFocus && editorHasSelection"
+  },
+  {
+    "command": "openEditors.newUntitledFile",
+    "key": "ctrl+t",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "workbench.files.action.focusFilesExplorer",
+    "key": "ctrl+e",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "explorer.newFile",
+    "key": "a",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "renameFile",
+    "key": "r",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "turboConsoleLog.displayLogMessage",
+    "key": "ctrl+l"
+  },
+  {
+    "command": "-turboConsoleLog.displayLogMessage",
+    "key": "ctrl+alt+l"
+  },
+  {
+    "command": "filesExplorer.copy",
+    "key": "c",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "filesExplorer.paste",
+    "key": "p",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "deleteFile",
+    "key": "d",
+    "when": "filesExplorerFocus && !inputFocus"
+  },
+  {
+    "command": "explorer.newFolder",
+    "key": "ctrl+shift+n",
+    "when": "explorerViewletFocus"
+  },
+  {
+    "command": "turboConsoleLog.displayLogMessage",
+    "key": "ctrl+l"
+  },
+  {
+    "command": "-turboConsoleLog.displayLogMessage",
+    "key": "ctrl+alt+l"
+  },
+  {
+    "command": "workbench.action.terminal.toggleTerminal",
+    "key": "ctrl+[Backquote]"
+  },
+  {
+    "command": "editor.action.goToTypeDefinition",
+    "key": "ctrl+q",
+    "when": "editorTextFocus"
+  },
+  {
+    "command": "-workbench.action.quit",
+    "key": "ctrl+q"
+  },
+  {
+    "command": "editor.action.selectHighlights",
+    "key": "ctrl+shift+d",
+    "when": "editorTextFocus && editorHasSelection"
+  },
+  {
+    "command": "-selectAllSearchEditorMatches",
+    "key": "ctrl+shift+l",
+    "when": "inSearchEditor"
+  },
+  {
+    "command": "-workbench.view.debug",
+    "key": "ctrl+shift+d",
+    "when": "viewContainer.workbench.view.debug.enabled"
+  }
+]
